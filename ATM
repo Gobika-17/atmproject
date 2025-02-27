@@ -1,0 +1,39 @@
+balance=2000  
+pin=1831
+
+entered_pin=int(input("Enter your pin number : "))
+
+if (entered_pin == pin):
+    print("welcome to our ATM service")
+    #ATM MENU
+    print("1. Balance Enquiry")
+    print("2. Deposit the amount")
+    print("3. Debit the amount")
+    print("4. exit")
+    
+    option = int(input("choose any option : "))
+    
+    if(option==1): # Check balance
+        print("Your current balance is : Rs.",balance)
+        
+    elif(option==2):
+        deposit_amount=int(input("Enter the amount to deposit : Rs."))
+        balance=balance+deposit_amount
+        print("your balance after deposit the amount : Rs.",balance)
+        
+    elif(option==3):
+        withdraw_amount=int(input("enter the amount to withdraw : Rs. "))
+        if(withdraw_amount<=balance):
+            print("your withdrawal is successful! Please take your cash")
+            balance=balance-withdraw_amount
+            print("your current balance after withdraw : Rs.",balance)
+        else:
+            print("Sorry, you have not enough balance")
+            
+    elif(option==4):
+        print("Thankyou for using our atm service")
+        
+    else:
+        print("Invalid option")
+else:
+    print("Incorrect pin! please try again")
