@@ -31,10 +31,10 @@ ATM Simulation Program :
 6.Example Interaction :
     Enter your pin number: 1831
       Welcome to our ATM service
-      1. Balance Enquiry
-      2. Deposit the amount
-      3. Debit the amount
-      4. Exit
+       1. Balance Enquiry
+       2. Deposit the amount
+       3. Debit the amount
+       4. Exit
     Choose any option: 1
       Your current balance is: Rs. 2000
 
