@@ -5,11 +5,11 @@ ATM Simulation Program :
        provides an interactive menu for performing different banking operations.
 
 2.Features :
-    * PIN Authentication: The user must enter the correct PIN to access the ATM services.
-    * Balance Enquiry: The user can check their current balance.
-    * Deposit: The user can deposit an amount into their account, which will be added to the balance.
-    * Withdrawal: The user can withdraw an amount from their account, provided there is sufficient balance.
-    * Exit: The user can choose to exit the ATM service.
+    * PIN Authentication : The user must enter the correct PIN to access the ATM services.
+    * Balance Enquiry : The user can check their current balance.
+    * Deposit : The user can deposit an amount into their account, which will be added to the balance.
+    * Withdrawal : The user can withdraw an amount from their account, provided there is sufficient balance.
+    * Exi t: The user can choose to exit the ATM service.
 
 3.Requirements :
     Python 3.x
@@ -39,9 +39,9 @@ ATM Simulation Program :
       Your current balance is: Rs. 2000
 
 7.Error Handling :
-    If an incorrect PIN is entered, the user will be asked to try again.
-    If an invalid option is chosen from the menu, the program will notify the user.
-    If the user tries to withdraw more than the available balance, the program will show an error message.
+    * If an incorrect PIN is entered, the user will be asked to try again.
+    * If an invalid option is chosen from the menu, the program will notify the user.
+    * If the user tries to withdraw more than the available balance, the program will show an error message.
 
 8.Future Improvements :
    * Allow multiple attempts for entering the PIN.
