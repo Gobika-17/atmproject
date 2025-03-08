@@ -1,6 +1,6 @@
 balance=2000  
 pin=1831
-
+print("Insert Your ATM card")
 entered_pin=int(input("Enter your pin number : "))
 
 if (entered_pin == pin):
@@ -22,6 +22,7 @@ if (entered_pin == pin):
         print("your balance after deposit the amount : Rs.",balance)
         
     elif(option==3):
+        print("Withdraw Minimum 100 Rupees")
         withdraw_amount=int(input("enter the amount to withdraw : Rs. "))
         if(withdraw_amount<=balance):
             print("your withdrawal is successful! Please take your cash")
